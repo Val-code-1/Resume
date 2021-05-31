@@ -4,7 +4,10 @@ import React from "react";
 const Teacher = () => {
   return (
     <div>
-      <p>My teacher Dustin is awesome!</p>
+      <p>
+        My teacher Dustin is awesome! But he
+        smells
+      </p>
     </div>
   );
 };
