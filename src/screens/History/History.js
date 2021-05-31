@@ -1,7 +1,7 @@
 import React from "react";
 import Job from "./components/Job";
 
-const JobHistory = () => {
+const History = () => {
   return (
     <div>
       <Job
@@ -20,4 +20,4 @@ const JobHistory = () => {
   );
 };
 
-export default JobHistory;
+export default History;

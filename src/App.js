@@ -5,30 +5,32 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import JobHistory from "./screens/JobHistory/JobHistory.js";
+import "./App.css";
+import History from "./screens/History/History.js";
 import Portfolio from "./screens/Portfolio/Portfolio";
 import Teacher from "./screens/Teacher/Teacher";
-
+import brIcon from "./assets/brIcon.png";
 const App = () => {
   return (
     <Router>
       <div>
-        <nav>
-          <p>
-            <Link to="/JobHistory">
-              Job History
-            </Link>
+        <nav id="navBar">
+          <Link to="/">
+            <img src={brIcon} id="brIcon" />
+          </Link>
+          <p className="pageLink">
+            <Link to="/History">History</Link>
           </p>
-          <p>
+          <p className="pageLink">
             <Link to="/Portfolio">Portfolio</Link>
           </p>
-          <p>
+          <p className="pageLink">
             <Link to="/Teacher">Dustin</Link>
           </p>
         </nav>
         <Switch>
-          <Route path="/JobHistory">
-            <JobHistory />
+          <Route path="/History">
+            <History />
           </Route>
           <Route path="/Portfolio">
             <Portfolio />
