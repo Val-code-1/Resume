@@ -1,0 +1,30 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*, {js,jsx}\" --quiet"
+  },
+  "keywords": [],
+  "author": "Benjamin Reit",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^8.1.0",
+    "parcel": "1.12.3",
+    "prettier": "^2.3.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
