@@ -18,15 +18,15 @@ const App = () => {
           <Link to="/">
             <img src={brIcon} id="brIcon" />
           </Link>
-          <p className="pageLink">
+          <button className="pageLink">
             <Link to="/History">History</Link>
-          </p>
-          <p className="pageLink">
+          </button>
+          <button className="pageLink">
             <Link to="/Portfolio">Portfolio</Link>
-          </p>
-          <p className="pageLink">
+          </button>
+          <button className="pageLink">
             <Link to="/Teacher">Dustin</Link>
-          </p>
+          </button>
         </nav>
         <Switch>
           <Route path="/History">
