@@ -1,5 +1,6 @@
 #brIcon {
   width: 8em;
+  margin-right: 8em;
 }
 #navBar {
   margin-top: 2%;
@@ -14,6 +15,13 @@
   display: flex;
   justify-content: flex-start;
   height: 20px;
+}
+#historyIcon {
+  width: 6em;
+}
+#historyText {
+  margin: 0;
+  margin-left: 0.7em;
 }
 /* body {
   margin: 0;

@@ -10,6 +10,7 @@ import History from "./screens/History/History.js";
 import Portfolio from "./screens/Portfolio/Portfolio";
 import Teacher from "./screens/Teacher/Teacher";
 import brIcon from "./assets/brIcon.png";
+import historyIcon from "./assets/history.png";
 const App = () => {
   return (
     <Router>
@@ -18,9 +19,12 @@ const App = () => {
           <Link to="/">
             <img src={brIcon} id="brIcon" />
           </Link>
-          <button className="pageLink">
-            <Link to="/History">History</Link>
-          </button>
+          <div id="historyThings">
+            <Link to="/History">
+              <img src={historyIcon} id="historyIcon" />
+            </Link>
+            <p id="historyText">History</p>
+          </div>
           <button className="pageLink">
             <Link to="/Portfolio">Portfolio</Link>
           </button>
