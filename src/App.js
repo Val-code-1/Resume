@@ -16,21 +16,26 @@ const App = () => {
     <Router>
       <div>
         <nav id="navBar">
-          <Link to="/">
-            <img src={brIcon} id="brIcon" />
-          </Link>
-          <div id="historyThings">
-            <Link to="/History">
-              <img src={historyIcon} id="historyIcon" />
+          <div id="name">
+            <Link to="/">
+              <img src={brIcon} id="brIcon" />
             </Link>
-            <p id="historyText">History</p>
+            <p>Benjamin Reit</p>
           </div>
-          <button className="pageLink">
-            <Link to="/Portfolio">Portfolio</Link>
-          </button>
-          <button className="pageLink">
-            <Link to="/Teacher">Dustin</Link>
-          </button>
+          <div id="pageIcons">
+            <div id="historyThings">
+              <Link to="/History">
+                <img src={historyIcon} id="historyIcon" />
+              </Link>
+              <p id="historyText">History</p>
+            </div>
+            <button className="pageLink">
+              <Link to="/Portfolio">Portfolio</Link>
+            </button>
+            <button className="pageLink">
+              <Link to="/Teacher">Dustin</Link>
+            </button>
+          </div>
         </nav>
         <Switch>
           <Route path="/History">
