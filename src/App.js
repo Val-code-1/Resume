@@ -8,10 +8,12 @@ import {
 import "./App.css";
 import History from "./screens/History/History.js";
 import Portfolio from "./screens/Portfolio/Portfolio";
-import Teacher from "./screens/Teacher/Teacher";
+import About from "./screens/About/About";
 import brIcon from "./assets/brIcon.png";
 import historyIcon from "./assets/history.png";
 import portIcon from "./assets/portfolio.png";
+import bojack from "./assets/Bojack.jpg";
+import aboutIcon from "./assets/about.png";
 const App = () => {
   return (
     <Router>
@@ -36,9 +38,12 @@ const App = () => {
               </Link>
               <p id="portText">Portfolio</p>
             </div>
-            <button className="pageLink">
-              <Link to="/Teacher">Dustin</Link>
-            </button>
+            <div>
+              <Link to="/About">
+                <img src={aboutIcon} id="aboutIcon" />
+              </Link>
+              <p id="aboutText">About</p>
+            </div>
           </div>
         </nav>
         <Switch>
@@ -48,11 +53,11 @@ const App = () => {
           <Route path="/Portfolio">
             <Portfolio />
           </Route>
-          <Route path="/Teacher">
-            <Teacher />
+          <Route path="/About">
+            <About />
           </Route>
           <Route path="/">
-            <p>Title Page!!!</p>
+            <img src={bojack} />
           </Route>
         </Switch>
       </div>
