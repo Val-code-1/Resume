@@ -4,6 +4,7 @@ import Job from "./components/Job";
 const History = () => {
   return (
     <div>
+      <Job title="" company="" date="" discription="" />
       <Job
         title="Direct Support Professional"
         company="Lifescape SD"
