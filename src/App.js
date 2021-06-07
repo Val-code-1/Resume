@@ -6,6 +6,7 @@ import {
   Link,
 } from "react-router-dom";
 import "./App.css";
+import Homepage from "./screens/Homepage/Homepage";
 import History from "./screens/History/History.js";
 import Portfolio from "./screens/Portfolio/Portfolio";
 import About from "./screens/About/About";
@@ -14,6 +15,7 @@ import historyIcon from "./assets/history.png";
 import portIcon from "./assets/portfolio.png";
 import bojack from "./assets/Bojack.jpg";
 import aboutIcon from "./assets/about.png";
+
 const App = () => {
   return (
     <Router>
@@ -57,7 +59,7 @@ const App = () => {
             <About />
           </Route>
           <Route path="/">
-            <img src={bojack} />
+            <Homepage />
           </Route>
         </Switch>
       </div>
