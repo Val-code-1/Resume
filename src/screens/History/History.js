@@ -40,7 +40,8 @@ const History = () => {
         title="Table Games Dealer"
         company="Grand Falls Casino"
         date="December 2019 - March 2020"
-        description=""
+        description="Performed the assigned game as per company policy and procedures. Responsible for providing exceptional guest service and enjoyment for all patrons. Accurate application of math and using critical thinking skills to keep games running smoothly. 
+        Made payoffs and handled other customer table actions."
       />
     </div>
   );

@@ -12,6 +12,10 @@ const About = () => {
         when my friends who had been doing it for some time
         talked me into starting. My teacher Dustin is
         awesome!
+        <br />
+        I've always enjoyed computer games and figuring out
+        how things work. It has served me very well
+        programming.
       </p>
     </div>
   );
