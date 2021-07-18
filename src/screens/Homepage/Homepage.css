@@ -1,5 +1,12 @@
 #background {
-  background-image: url("../../assets/Bojack.jpg");
+  /* background-image: url("../../assets/Bojack.jpg"); */
   background-size: cover;
-  height: 768px;
+  /* height: 768px; */
+  display: flex;
+  justify-content: center;
+  background-color: #9dfefe;
+}
+#img {
+  width: 70%;
+  display: flex;
 }
