@@ -1,31 +1,21 @@
 import React from "react";
 import Job from "./components/Job";
+import "./History.css";
 
 const History = () => {
   return (
     <div>
-      <Job
-        title="Experienced with:"
-        company=""
-        date=""
-        description=""
-      />
-      <Job title="" company="HTML" date="" description="" />
-      <Job title="" company="CSS" date="" description="" />
-      <Job title="" company="Git" date="" description="" />
-      <Job title="" company="APIs" date="" description="" />
-      <Job
-        title=""
-        company="Javascript"
-        date=""
-        description=""
-      />
-      <Job
-        title=""
-        company="React"
-        date=""
-        description=""
-      />
+      <div id="programs">
+        <h2>Experienced with:</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git</li>
+          <li>APIs</li>
+          <li>Javascript</li>
+          <li>React</li>
+        </ul>
+      </div>
       <Job
         title="Direct Support Professional"
         company="Lifescape SD"

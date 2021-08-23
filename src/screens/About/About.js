@@ -1,9 +1,10 @@
 import React from "react";
+import "./About.css";
 // rafce
 
 const About = () => {
   return (
-    <div>
+    <div id="aboutPage">
       <p>
         Hello there, I'm Benjamin Reit from Sioux Falls,
         South Dakota. I've lived here my entire life. I've
