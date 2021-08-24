@@ -19,7 +19,8 @@
   padding: 0px;
   display: flex;
   justify-content: space-between;
-  background: rgb(143, 141, 241);
+  background: rgb(187 186 255);
+  z-index: 1;
 }
 #homeImg {
   width: 101%;

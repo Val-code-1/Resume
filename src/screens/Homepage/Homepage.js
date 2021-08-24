@@ -1,6 +1,6 @@
 import React from "react";
 import "./Homepage.css";
-import img from "../../assets/Bojack.jpg";
+import img from "../../assets/Bojack.png";
 const Homepage = () => {
   return (
     <div id="background">

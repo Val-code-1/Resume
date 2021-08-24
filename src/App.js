@@ -13,7 +13,6 @@ import About from "./screens/About/About";
 import brIcon from "./assets/brIcon.png";
 import historyIcon from "./assets/history.png";
 import portIcon from "./assets/portfolio.png";
-import bojack from "./assets/Bojack.jpg";
 import aboutIcon from "./assets/about.png";
 
 const App = () => {
