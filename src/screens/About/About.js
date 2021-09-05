@@ -11,12 +11,16 @@ const About = () => {
         spent the last decade working for a wonderful
         company Lifescape. I picked up coding Feburary 2021
         when my friends who had been doing it for some time
-        talked me into starting. My teacher Dustin is
-        awesome!
+        talked me into starting.
         <br />
         I've always enjoyed computer games and figuring out
         how things work. It has served me very well
-        programming.
+        programming. I've been an avid player of Magic the
+        Gathering for the last 15 years and until they
+        changed the Judge program I was an official judge
+        for the game. If you are familiar with the game
+        you'll know the rule set can be as complex as
+        programming is sometimes.
       </p>
     </div>
   );

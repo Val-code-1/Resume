@@ -64,6 +64,14 @@
   text-align: center;
   font-family: fangsong;
 }
+#contactIcon {
+  width: 6em;
+}
+#contactText {
+  margin: 0;
+  text-align: center;
+  font-family: fangsong;
+}
 
 /* body {
   margin: 0;

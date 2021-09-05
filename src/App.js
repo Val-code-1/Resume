@@ -9,11 +9,13 @@ import "./App.css";
 import Homepage from "./screens/Homepage/Homepage";
 import History from "./screens/History/History.js";
 import Portfolio from "./screens/Portfolio/Portfolio";
-import About from "./screens/About/About";
+import About from "./screens/About/About.js";
+import Contact from "./screens/Contact/Contact.js";
 import brIcon from "./assets/brIcon.png";
 import historyIcon from "./assets/history.png";
 import portIcon from "./assets/portfolio.png";
 import aboutIcon from "./assets/about.png";
+import contactIcon from "./assets/contact.png";
 
 const App = () => {
   return (
@@ -45,6 +47,12 @@ const App = () => {
               </Link>
               <p id="aboutText">About</p>
             </div>
+            <div>
+              <Link to="/Contact">
+                <img src={contactIcon} id="contactIcon" />
+              </Link>
+              <p id="contactText">Contact</p>
+            </div>
           </div>
         </nav>
         <Switch>
@@ -56,6 +64,9 @@ const App = () => {
           </Route>
           <Route path="/About">
             <About />
+          </Route>
+          <Route path="/Contact">
+            <Contact />
           </Route>
           <Route path="/">
             <Homepage />
