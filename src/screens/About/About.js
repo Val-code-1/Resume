@@ -9,7 +9,7 @@ const About = () => {
         Hello there, I'm Benjamin Reit from Sioux Falls,
         South Dakota. I've lived here my entire life. I've
         spent the last decade working for a wonderful
-        company Lifescape. I picked up coding Feburary 2021
+        company Lifescape. I picked up coding February 2021
         when my friends who had been doing it for some time
         talked me into starting.
         <br />
@@ -21,6 +21,7 @@ const About = () => {
         for the game. If you are familiar with the game
         you'll know the rule set can be as complex as
         programming is sometimes.
+        <br />
       </p>
     </div>
   );
