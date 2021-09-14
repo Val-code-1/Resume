@@ -10,6 +10,7 @@ const History = () => {
         <ul>
           <li>HTML</li>
           <li>CSS</li>
+          <li>Node</li>
           <li>Git</li>
           <li>APIs</li>
           <li>Javascript</li>
