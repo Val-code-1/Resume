@@ -6,8 +6,8 @@ const History = () => {
   return (
     <div>
       <div id="programs">
-        <h2>Experienced with:</h2>
-        <ul>
+        <h2 className="heading">Experienced using:</h2>
+        <ul className="list">
           <li>HTML</li>
           <li>CSS</li>
           <li>Node</li>
@@ -38,7 +38,7 @@ const History = () => {
         title="Store Manager"
         company="Dragon's Den"
         date="2013-2014"
-        description=""
+        description="Responsible for store including product management, cleaning, opening, and closing. Took pride in helping customers find what they were looking for even if we didn't have it immediately on hand. Trusted with store keys and hundreds of thousands of dollars in product."
       />
     </div>
   );

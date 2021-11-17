@@ -3,7 +3,11 @@ import "./Contact.css";
 // rafce
 const Contact = () => {
   return (
-    <div>
+    <div id="contact">
+      <h3 id="header">
+        If you are interested in contacting me about a
+        position or any questions feel free
+      </h3>
       <form
         action="mailto:reit.ben@gmail.com"
         method="POST"
@@ -12,24 +16,28 @@ const Contact = () => {
       >
         Name:
         <br />
-        <input type="text" size="19" name="Contact-Name" />
+        <input type="text" size="39" name="Contact-Name" />
         <br />
         <br />
         Email:
         <br />
-        <input type="email" name="Contact-Email" />
+        <input
+          type="email"
+          size="39"
+          name="Contact-Email"
+        />
         <br />
         <br />
         Message:
         <br />
         <textarea
           name="Contact-Message"
-          rows="6"
-          cols="20"
+          rows="16"
+          cols="40"
         ></textarea>
         <br />
         <br />
-        <button type="submit" value="Submit">
+        <button type="submit" id="submit" value="Submit">
           Send
         </button>
       </form>

@@ -40,6 +40,16 @@
   float: right;
   padding: 1%;
 }
+/*  */
+.icon:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+/*  */
+.icon:hover {
+  opacity: 50%;
+}
 #historyIcon {
   width: 6em;
 }
