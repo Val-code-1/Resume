@@ -1,21 +1,28 @@
 import React from "react";
 import "./Portfolio.css";
+import mtg from "../../assets/mtg.png";
+import glacier from "../../assets/glacier.jpeg";
 const Portfolio = () => {
   return (
     <div id="portPage">
-      <ul>
-        <li>
-          <a href="https://val-code-1.github.io/MagicSearch/">
-            Magic the Gathering card search
-          </a>
-        </li>
-        <li>
-          <a>Glacier Events website</a>
-        </li>
-        <li>
-          <a>Tetra Master</a>
-        </li>
-      </ul>
+      <div id="mtgDiviner" className="project">
+        <a
+          href="https://mtg-card-diviner.herokuapp.com/"
+          target="blank"
+          className="linkImg"
+        >
+          <img src={mtg} className="allLinkImgs" />
+        </a>
+        <p className="linkText">
+          Magic the Gathering Diviner
+        </p>
+      </div>
+      <div id="glacier" className="project">
+        <a href="" target="blank" className="linkImg">
+          <img src={glacier} className="allLinkImgs" />
+        </a>
+        <p className="linkText">Glacier Events website</p>
+      </div>
     </div>
   );
 };
